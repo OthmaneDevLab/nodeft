@@ -64,6 +64,7 @@ app.post('/article', async (req,res)=>{
 app.get('/article',async(req,res)=>{
     let article = await Article.find()
     res.json(article)
+    
 })
 
 
